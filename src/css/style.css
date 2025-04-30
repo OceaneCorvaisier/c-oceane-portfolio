@@ -346,7 +346,7 @@ body {
 }
 
 .video-fond {
-  width: 90%;   /* ✅ largeur réduite */
+  width: 70%;   /* ✅ largeur réduite */
   height: auto;
   object-fit: cover;
   z-index: 1;
