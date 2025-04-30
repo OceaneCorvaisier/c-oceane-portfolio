@@ -164,6 +164,43 @@ h2::selection {
   background: url(../assets/project/project-six.png) center center/cover;
 }
 
+.contact-section {
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: inherit;
+  resize: vertical;
+}
+
+.contact-form button {
+  padding: 0.75rem;
+  border: none;
+  background-color: #85bde2;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #f3c6f1;
+}
+
 /* Media Queries */
 @media (max-width: 768px) {
   .header-container {
@@ -175,3 +212,4 @@ h2::selection {
     font-size: 2.5rem;
   }
 }
+
